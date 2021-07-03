@@ -12,4 +12,5 @@ else:
     print('成人')
 
 # format文
-print(f'age = {age}')
+print(f'age = {age}') #3.6
+print(f'{age=}')

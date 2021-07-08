@@ -32,4 +32,3 @@ msg = 'hello world'
 print(msg.capitalize()) # Hello world 一番最初の文字が大文字になる
 msg = 'hello World'
 print(msg.capitalize()) # Hello world
-print(msg)

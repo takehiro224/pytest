@@ -47,3 +47,21 @@ name = 'Jiro'
 print(f'hello {name}')
 # Python3.8以上
 print(f'{name=}')
+
+# 小文字か大文字か判定
+msg = 'apple'
+print(msg.islower()) # true
+msg = 'Apple'
+print(msg.islower()) # false
+msg = 'APPLE'
+print(msg.isupper()) # true
+msg = 'Apple'
+print(msg.isupper()) # false
+
+msg = 'ABCDEABC'
+print(msg.find('ABC')) # 0
+print(msg.rfind('ABC')) # 右端から検索 5
+print(msg.index('ABC')) # 0
+print(msg.rindex('ABC')) # 
+print(msg.find('ABCE')) # 見つからなかったら-1になる
+print(msg.index('ABC')) # 見つからなかったらエラーが表示される.エラー以降は実行されないのでエラーで終了させたい場合にしよう

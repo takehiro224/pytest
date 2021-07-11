@@ -37,6 +37,13 @@ print(str_test)
 
 # 文字列の一部取り出し、format, islower, isupper
 msg = 'hello, my name is taro'
-print(msg[:5])
-print(msg[6:])
-print(msg[1:6])
+print(msg[:5]) # hello
+print(msg[6:]) # my name is taro
+print(msg[1:6]) #
+
+print('hellow {}'.format('Taro'))
+# Python3.6以上
+name = 'Jiro'
+print(f'hello {name}')
+# Python3.8以上
+print(f'{name=}')

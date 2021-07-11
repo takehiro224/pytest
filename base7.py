@@ -34,3 +34,7 @@ byte_test = test.encode('utf-8')
 str_test = byte_test.decode('utf-8')
 print(byte_test)
 print(str_test)
+
+# 文字列の一部取り出し、format, islower, isupper
+msg = 'hello, my name is taro'
+print(msg[:5])

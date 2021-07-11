@@ -38,3 +38,5 @@ print(str_test)
 # 文字列の一部取り出し、format, islower, isupper
 msg = 'hello, my name is taro'
 print(msg[:5])
+print(msg[6:])
+print(msg[1:6])

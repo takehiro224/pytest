@@ -8,7 +8,7 @@ print('Hello World') # Hello World
 コメント
 コメント
 コメント
-a
+
 """
 
 name = input('あなたの名前は何ですか？')
